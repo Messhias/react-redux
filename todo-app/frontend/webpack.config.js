@@ -12,7 +12,7 @@ module.exports = {
         contentBase: './public',
     },
     resolve: {
-        extensions: ['', '.js', '.jsx', '.json'],
+        extensions: ['', '.js', '.jsx'],
         alias: {
             modules: __dirname + '/node_modules'
         }
